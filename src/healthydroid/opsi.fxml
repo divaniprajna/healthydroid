@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="healthydroid.OpsiController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../image/BAG3.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="menu_id" layoutX="61.0" layoutY="150.0" mnemonicParsing="false" onAction="#id_menu" prefHeight="99.0" prefWidth="120.0" text="MENU">
+         <opaqueInsets>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </opaqueInsets>
+         <font>
+            <Font name="Amatic Regular" size="41.0" />
+         </font>
+      </Button>
+      <Button fx:id="cekid" layoutX="240.0" layoutY="151.0" mnemonicParsing="false" onAction="#id_cek" prefHeight="99.0" prefWidth="120.0" text="cek kesehatan">
+         <font>
+            <Font name="Amatic Regular" size="24.0" />
+         </font></Button>
+      <Button fx:id="pantangan_id" layoutX="421.0" layoutY="151.0" mnemonicParsing="false" onAction="#id_pantangan" prefHeight="99.0" prefWidth="120.0" text="PANTANGAN">
+         <font>
+            <Font name="Amatic Regular" size="24.0" />
+         </font></Button>
+      <Button fx:id="exit" layoutX="256.0" layoutY="307.0" mnemonicParsing="false" onAction="#exit" prefHeight="29.0" prefWidth="88.0" style="-fx-background-color: salmon;" text="EXIT" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

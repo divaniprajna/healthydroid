@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="295.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="healthydroid.LoginloginController">
+   <children>
+      <ImageView fitHeight="302.0" fitWidth="400.0" layoutX="-3.0" layoutY="-3.0">
+         <image>
+            <Image url="@../image/baground.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="17.0" layoutY="99.0" text="Username" />
+      <Label layoutX="19.0" layoutY="151.0" text="Password" />
+      <TextField fx:id="nameid" layoutX="18.0" layoutY="116.0" prefHeight="25.0" prefWidth="143.0" />
+      <TextField fx:id="pssid" layoutX="18.0" layoutY="168.0" prefHeight="25.0" prefWidth="143.0" />
+      <Label fx:id="label" layoutX="129.0" layoutY="123.0" minHeight="16" minWidth="69" prefHeight="120.0" prefWidth="226.0" />
+      <Button fx:id="okeid" layoutX="70.0" layoutY="202.0" mnemonicParsing="false" onAction="#oke" prefHeight="17.0" prefWidth="39.0" text="OKE" />
+      <Label layoutX="18.0" layoutY="231.0" prefHeight="25.0" prefWidth="143.0" text="Username : admin" />
+      <Label layoutX="17.0" layoutY="248.0" text="Password  : 123" />
+   </children>
+</AnchorPane>

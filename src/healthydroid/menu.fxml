@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="healthydroid.MenuController">
+   <children>
+      <AnchorPane layoutX="243.0" prefHeight="71.0" prefWidth="114.0" style="-fx-background-color: pink;">
+         <children>
+            <Label layoutX="17.0" layoutY="-1.0" text="MENU">
+               <font>
+                  <Font name="Amatic Bold" size="55.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="1.0" layoutY="1.0">
+         <image>
+            <Image url="@../image/BAG3.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="laukid" layoutX="313.0" layoutY="120.0" mnemonicParsing="false" onAction="#idlauk" prefHeight="71.0" prefWidth="100.0" style="-fx-background-color: pink;" text="LAUK">
+         <font>
+            <Font name="Amatic Regular" size="29.0" />
+         </font></Button>
+      <Button fx:id="karboid" layoutX="151.0" layoutY="120.0" mnemonicParsing="false" onAction="#idkarbo" prefHeight="71.0" prefWidth="100.0" style="-fx-background-color: pink;" text="KARBO">
+         <font>
+            <Font name="Amatic Regular" size="30.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets></Button>
+      <Button fx:id="sayurid" layoutX="313.0" layoutY="232.0" mnemonicParsing="false" onAction="#idsayur" prefHeight="71.0" prefWidth="100.0" style="-fx-background-color: pink;" text="SAYUR">
+         <font>
+            <Font name="Amatic Regular" size="29.0" />
+         </font></Button>
+      <Button fx:id="dessertid" layoutX="151.0" layoutY="232.0" mnemonicParsing="false" onAction="#iddessert" prefHeight="71.0" prefWidth="100.0" style="-fx-background-color: pink;" text="DESSERT">
+         <font>
+            <Font name="Amatic Regular" size="26.0" />
+         </font></Button>
+      <Button fx:id="backid" layoutX="32.0" layoutY="336.0" mnemonicParsing="false" onAction="#idback" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: darkgrey;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="Amatic Regular" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="healthydroid.SAYURController">
+   <children>
+      <ScrollPane prefHeight="401.0" prefWidth="600.0">
+         <content>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="579.0">
+               <children>
+                  <ImageView fitHeight="1078.0" fitWidth="600.0">
+                     <image>
+                        <Image url="@../image/SAYUR.png" />
+                     </image>
+                  </ImageView>
+                  <CheckBox fx:id="cahid" layoutX="52.0" layoutY="193.0" mnemonicParsing="false" onAction="#cah" text="CAH KANGKUNG" />
+                  <CheckBox fx:id="oporid" layoutX="327.0" layoutY="193.0" mnemonicParsing="false" onAction="#opor" text="OPOR AYAM" />
+                  <CheckBox fx:id="rendangid" layoutX="53.0" layoutY="390.0" mnemonicParsing="false" onAction="#rendang" text="RENDANG" />
+                  <CheckBox fx:id="captjayid" layoutX="321.0" layoutY="388.0" mnemonicParsing="false" onAction="#captjay" text="CAP TJAY" />
+                  <CheckBox fx:id="sayurasemid" layoutX="57.0" layoutY="584.0" mnemonicParsing="false" onAction="#sayurasem" text="SAYUR ASEM" />
+                  <CheckBox fx:id="sotoid" layoutX="329.0" layoutY="585.0" mnemonicParsing="false" onAction="#soto" text="SOTO" />
+                  <CheckBox fx:id="supayamid" layoutX="52.0" layoutY="773.0" mnemonicParsing="false" onAction="#supayam" text="SUP AYAM" />
+                  <CheckBox fx:id="urapid" layoutX="324.0" layoutY="775.0" mnemonicParsing="false" onAction="#urap" text="URAP-URAP" />
+                  <Button fx:id="backid" layoutX="53.0" layoutY="982.0" mnemonicParsing="false" onAction="#back" prefHeight="40.0" prefWidth="78.0" style="-fx-background-color: SALMON;" text="&lt; BACK" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

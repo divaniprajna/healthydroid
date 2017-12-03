@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="healthydroid.LAUKController">
+   <children>
+      <ScrollPane layoutY="-1.0" prefHeight="401.0" prefWidth="600.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1052.0" prefWidth="584.0">
+               <children>
+                  <ImageView fitHeight="1040.0" fitWidth="600.0">
+                     <image>
+                        <Image url="@../image/LAUK.png" />
+                     </image>
+                  </ImageView>
+                  <CheckBox fx:id="ayamid" layoutX="41.0" layoutY="184.0" mnemonicParsing="false" onAction="#ayam" text="AYAM KECAP" />
+                  <CheckBox fx:id="udangid" layoutX="329.0" layoutY="185.0" mnemonicParsing="false" onAction="#udang" text="UDANG ASAM MANIS" />
+                  <CheckBox fx:id="telorid" layoutX="46.0" layoutY="368.0" mnemonicParsing="false" onAction="#telor" text="TAHU TELOR" />
+                  <CheckBox fx:id="semurid" layoutX="331.0" layoutY="376.0" mnemonicParsing="false" onAction="#semur" text="SEMUR PUYUH" />
+                  <CheckBox fx:id="pepesid" layoutX="43.0" layoutY="561.0" mnemonicParsing="false" onAction="#pepes" text="PEPES" />
+                  <CheckBox fx:id="roladeid" layoutX="333.0" layoutY="560.0" mnemonicParsing="false" onAction="#rolade" text="ROLADE" />
+                  <CheckBox fx:id="bandengid" layoutX="41.0" layoutY="746.0" mnemonicParsing="false" onAction="#bandeng" text="BANDENG PRESTO" />
+                  <CheckBox fx:id="tahutempeid" layoutX="333.0" layoutY="746.0" mnemonicParsing="false" onAction="#tahutempe" text="TAHU TEMPE BACEM/GORENG" />
+                  <Button fx:id="backid" layoutX="41.0" layoutY="944.0" mnemonicParsing="false" onAction="#back" prefHeight="48.0" prefWidth="81.0" style="-fx-background-color: SALMON;" text="&lt; BACK" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

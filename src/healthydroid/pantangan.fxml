@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="774.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="healthydroid.PantanganController">
+   <children>
+      <ImageView fitHeight="470.0" fitWidth="774.0">
+         <image>
+            <Image url="@../image/BAG3.png" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="14.0" layoutY="98.0" prefHeight="147.0" prefWidth="135.0" />
+      <TextArea editable="false" layoutX="168.0" layoutY="98.0" prefHeight="147.0" prefWidth="135.0" />
+      <TextArea editable="false" layoutX="320.0" layoutY="98.0" prefHeight="147.0" prefWidth="135.0" />
+      <TextArea editable="false" layoutX="14.0" layoutY="271.0" prefHeight="147.0" prefWidth="135.0" />
+      <TextArea editable="false" layoutX="474.0" layoutY="98.0" prefHeight="147.0" prefWidth="135.0" />
+      <TextArea editable="false" layoutX="625.0" layoutY="98.0" prefHeight="147.0" prefWidth="135.0" />
+      <TextArea editable="false" layoutX="168.0" layoutY="271.0" prefHeight="147.0" prefWidth="135.0" />
+      <TextArea editable="false" layoutX="320.0" layoutY="271.0" prefHeight="147.0" prefWidth="135.0" />
+      <TextArea editable="false" layoutX="474.0" layoutY="271.0" prefHeight="147.0" prefWidth="135.0" />
+      <Label layoutX="59.0" layoutY="107.0" text="ANEMIA" />
+      <Label layoutX="208.0" layoutY="107.0" text="AMANDEL" />
+      <Label layoutX="359.0" layoutY="107.0" text="HIPERTENSI" />
+      <Label layoutX="520.0" layoutY="107.0" text="MAAGH" />
+      <Label layoutX="671.0" layoutY="107.0" text="THYPUS" />
+      <Label layoutX="211.0" layoutY="281.0" text="REMATIK" />
+      <Label layoutX="56.0" layoutY="281.0" text="DIABETES" />
+      <Label layoutX="371.0" layoutY="281.0" text="ASMA" />
+      <Label layoutX="506.0" layoutY="281.0" text="ALERGI KULIT" />
+      <Label layoutX="32.0" layoutY="140.0" prefHeight="23.0" prefWidth="100.0" text="-Air kelapa" />
+      <Label layoutX="31.0" layoutY="163.0" prefHeight="17.0" prefWidth="108.0" text="-Minuman bersoda" />
+      <Label layoutX="183.0" layoutY="143.0" text="-Cabe" />
+      <Label layoutX="183.0" layoutY="162.0" text="-Asam" />
+      <Label layoutX="331.0" layoutY="143.0" text="-Garam" />
+      <Label layoutX="331.0" layoutY="163.0" text="-Kopi" />
+      <Label layoutX="492.0" layoutY="143.0" text="-Cabe" />
+      <Label layoutX="492.0" layoutY="163.0" text="-Santan" />
+      <Label layoutX="183.0" layoutY="179.0" text="-Makanan berminyak" />
+      <Label layoutX="330.0" layoutY="180.0" text="-Daging" />
+      <Label layoutX="332.0" layoutY="197.0" text="-Jeroan" />
+      <Label layoutX="492.0" layoutY="180.0" text="-Sayur nangka" />
+      <Label layoutX="492.0" layoutY="197.0" text="-Ketan" />
+      <Label layoutX="635.0" layoutY="143.0" text="-Cabe" />
+      <Label layoutX="635.0" layoutY="163.0" text="-Kopi" />
+      <Label layoutX="635.0" layoutY="180.0" text="-Nanas" />
+      <Label layoutX="635.0" layoutY="197.0" text="-Nasi goreng" />
+      <Label layoutX="636.0" layoutY="214.0" text="-Air es" />
+      <Label layoutX="31.0" layoutY="316.0" text="-Semangka" />
+      <Label layoutX="32.0" layoutY="336.0" text="-Nangka" />
+      <Label layoutX="32.0" layoutY="353.0" text="-Kopi" />
+      <Label layoutX="33.0" layoutY="370.0" text="-Minuman soda" />
+      <Label layoutX="187.0" layoutY="316.0" text="-Berpengawet" />
+      <Label layoutX="187.0" layoutY="336.0" text="-Air kelapa" />
+      <Label layoutX="187.0" layoutY="353.0" text="-Ikan teri" />
+      <Label layoutX="187.0" layoutY="370.0" text="-Tempe gembos" />
+      <Label layoutX="332.0" layoutY="316.0" text="-Singkong " />
+      <Label layoutX="332.0" layoutY="336.0" text="-Tape" />
+      <Label layoutX="332.0" layoutY="353.0" text="-Berminyak" />
+      <Label layoutX="332.0" layoutY="370.0" text="-Air es" />
+      <Label layoutX="485.0" layoutY="316.0" text="-Terasi" />
+      <Label layoutX="485.0" layoutY="336.0" text="-Ikan asin" />
+      <Label layoutX="485.0" layoutY="353.0" text="-Berpengawet" />
+      <Label layoutX="485.0" layoutY="370.0" text="-Ayam potong" />
+      <AnchorPane layoutX="288.0" prefHeight="44.0" prefWidth="200.0" style="-fx-background-color: salmon;">
+         <children>
+            <Label layoutX="1.0" layoutY="4.0" text="-PANTANGAN MAKANAN-" textFill="WHITE">
+               <font>
+                  <Font name="Amatic Regular" size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="backid" layoutX="651.0" layoutY="318.0" mnemonicParsing="false" onAction="#back" prefHeight="33.0" prefWidth="63.0" style="-fx-background-color: SALMON;" text="&lt; BACK" textFill="WHITE" />
+   </children>
+</AnchorPane>
